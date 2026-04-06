@@ -55,7 +55,7 @@ struct CalendarView: View {
                 }
                 .padding()
 
-                // 曜日ラベル
+                // 曜日
                 HStack {
                     ForEach(曜日, id: \.self) { day in
                         Text(day).frame(maxWidth: .infinity).font(.caption).foregroundColor(.secondary)

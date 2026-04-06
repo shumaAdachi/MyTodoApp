@@ -97,7 +97,7 @@ struct CalendarView: View {
                     }
                     
                     if 表示対象のIndex.isEmpty {
-                        Text("予定はありません")
+                        Text("予定が存在していません")
                             .foregroundColor(.gray)
                             .listRowBackground(Color.clear)
                     } else {
